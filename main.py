@@ -4,8 +4,10 @@ import os
 import subprocess
 import time
 # Set page configuration
-st.set_page_config(page_title="Upscale.AI", layout="wide")
+
 subprocess.run(["pip", "install", "-r", "requirements.txt"], check=True)
+
+st.set_page_config(page_title="Upscale.AI", layout="wide")
 
 # --- Add custom CSS for styling ---
 st.markdown(
