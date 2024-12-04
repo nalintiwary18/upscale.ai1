@@ -4,3 +4,4 @@ numpy
 opencv-python      
 torch
 streamlit
+opencv-python
