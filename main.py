@@ -1,4 +1,3 @@
-pip install -r requirements.txt
 import streamlit as st
 from PIL import Image
 import os
@@ -6,6 +5,7 @@ import subprocess
 import time
 # Set page configuration
 st.set_page_config(page_title="Upscale.AI", layout="wide")
+subprocess.run(["pip", "install", "-r", "requirements.txt"], check=True)
 
 # --- Add custom CSS for styling ---
 st.markdown(
